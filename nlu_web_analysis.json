@@ -1,0 +1,565 @@
+$ curl -X POST -u "apikey:{key}" \
+--header "Content-Type: application/json" \
+--data '{
+  "url": "https://www.ibm.com/products/natural-language-understanding#:~:text=IBM%20Watson%C2%AE%20Natural%20Language,%2C%20emotion%2C%20relations%20and%20syntax.",
+  "features": {
+    "sentiment": {},
+    "categories": {},
+    "concepts": {},
+    "entities": {},
+    "keywords": {}
+  }
+}' \
+"{Api Url}/v1/analyze?version=2019-07-12"
+{
+  "usage": {
+    "text_units": 2,
+    "text_characters": 10351,
+    "features": 5
+  },
+  "sentiment": {
+    "document": {
+      "score": 0.667013,
+      "mixed": "1",
+      "label": "positive"
+    }
+  },
+  "retrieved_url": "https://www.ibm.com/products/natural-language-understanding",
+  "language": "en",
+  "keywords": [
+    {
+      "text": "IBM Watson",
+      "relevance": 0.741146,
+      "count": 1
+    },
+    {
+      "text": "part of the IBM Watson NLP Library",
+      "relevance": 0.634102,
+      "count": 1
+    },
+    {
+      "text": "unstructured text data",
+      "relevance": 0.607304,
+      "count": 1
+    },
+    {
+      "text": "Watson Natural Language Understanding",
+      "relevance": 0.580239,
+      "count": 1
+    },
+    {
+      "text": "Surface real-time",
+      "relevance": 0.567955,
+      "count": 1
+    },
+    {
+      "text": "Extract emotions",
+      "relevance": 0.562154,
+      "count": 1
+    },
+    {
+      "text": "IBM partners",
+      "relevance": 0.561629,
+      "count": 2
+    },
+    {
+      "text": "Natural Language Understanding",
+      "relevance": 0.560529,
+      "count": 2
+    },
+    {
+      "text": "deep learning",
+      "relevance": 0.552848,
+      "count": 1
+    },
+    {
+      "text": "Train Watson",
+      "relevance": 0.548891,
+      "count": 1
+    },
+    {
+      "text": "Mushi Lab                                                            Mushi Lab",
+      "relevance": 0.547074,
+      "count": 1
+    },
+    {
+      "text": "massive troves of data",
+      "relevance": 0.546249,
+      "count": 2
+    },
+    {
+      "text": "commercial applications",
+      "relevance": 0.545241,
+      "count": 2
+    },
+    {
+      "text": "IBM Watson Natural Language Understanding",
+      "relevance": 0.545083,
+      "count": 2
+    },
+    {
+      "text": "Independent Software Vendor",
+      "relevance": 0.539717,
+      "count": 1
+    },
+    {
+      "text": "Watson NLP Library",
+      "relevance": 0.53904,
+      "count": 1
+    },
+    {
+      "text": "broader pricing models",
+      "relevance": 0.53476,
+      "count": 1
+    },
+    {
+      "text": "integrated solution",
+      "relevance": 0.534454,
+      "count": 1
+    },
+    {
+      "text": "detailed Natural Language Understanding pricing",
+      "relevance": 0.53366,
+      "count": 1
+    },
+    {
+      "text": "natural language",
+      "relevance": 0.53364,
+      "count": 3
+    },
+    {
+      "text": "Intel processors",
+      "relevance": 0.533284,
+      "count": 1
+    },
+    {
+      "text": "NLU items",
+      "relevance": 0.532011,
+      "count": 3
+    },
+    {
+      "text": "Lite plan",
+      "relevance": 0.530754,
+      "count": 2
+    },
+    {
+      "text": "additional information",
+      "relevance": 0.530394,
+      "count": 1
+    },
+    {
+      "text": "embeddable AI portfolio",
+      "relevance": 0.529809,
+      "count": 1
+    },
+    {
+      "text": "Global Regulation                                                            Global-Regulation",
+      "relevance": 0.528249,
+      "count": 1
+    },
+    {
+      "text": "custom labels",
+      "relevance": 0.527937,
+      "count": 1
+    },
+    {
+      "text": "Watson Knowledge Studio",
+      "relevance": 0.525431,
+      "count": 2
+    },
+    {
+      "text": "actionable insights",
+      "relevance": 0.524704,
+      "count": 2
+    },
+    {
+      "text": "containerized library",
+      "relevance": 0.524277,
+      "count": 2
+    },
+    {
+      "text": "IBM Cloud pricing overview",
+      "relevance": 0.524204,
+      "count": 1
+    },
+    {
+      "text": "Watson NLU performance",
+      "relevance": 0.523266,
+      "count": 1
+    },
+    {
+      "text": "existing data pipeline",
+      "relevance": 0.522421,
+      "count": 1
+    },
+    {
+      "text": "standard version",
+      "relevance": 0.522249,
+      "count": 1
+    },
+    {
+      "text": "IBM Cloud",
+      "relevance": 0.521903,
+      "count": 1
+    },
+    {
+      "text": "standard plan",
+      "relevance": 0.521705,
+      "count": 2
+    },
+    {
+      "text": "IBM Watson NLP Library",
+      "relevance": 0.520792,
+      "count": 1
+    },
+    {
+      "text": "Intel",
+      "relevance": 0.520264,
+      "count": 3
+    },
+    {
+      "text": "business growth",
+      "relevance": 0.520158,
+      "count": 1
+    },
+    {
+      "text": "clients’ needs",
+      "relevance": 0.519362,
+      "count": 1
+    },
+    {
+      "text": "best-of-breed text analytics service",
+      "relevance": 0.519283,
+      "count": 1
+    },
+    {
+      "text": "calendar month",
+      "relevance": 0.519053,
+      "count": 2
+    },
+    {
+      "text": "text analytics",
+      "relevance": 0.518306,
+      "count": 1
+    },
+    {
+      "text": "information-gathering tasks",
+      "relevance": 0.517729,
+      "count": 1
+    },
+    {
+      "text": "language of your business",
+      "relevance": 0.517506,
+      "count": 1
+    },
+    {
+      "text": "Find documentation",
+      "relevance": 0.517197,
+      "count": 1
+    },
+    {
+      "text": "month-over-month revenue growth",
+      "relevance": 0.5169,
+      "count": 1
+    },
+    {
+      "text": "annual increase",
+      "relevance": 0.515974,
+      "count": 1
+    },
+    {
+      "text": "high-level concepts",
+      "relevance": 0.514579,
+      "count": 1
+    },
+    {
+      "text": "AI",
+      "relevance": 0.514514,
+      "count": 1
+    }
+  ],
+  "entities": [
+    {
+      "type": "Company",
+      "text": "IBM",
+      "relevance": 0.962811,
+      "count": 15,
+      "confidence": 1
+    },
+    {
+      "type": "Company",
+      "text": "Intel",
+      "relevance": 0.415735,
+      "disambiguation": {
+        "subtype": [
+          "OperatingSystemDeveloper",
+          "ProcessorManufacturer",
+          "SoftwareDeveloper"
+        ],
+        "name": "Intel",
+        "dbpedia_resource": "http://dbpedia.org/resource/Intel"
+      },
+      "count": 7,
+      "confidence": 1.0
+    },
+    {
+      "type": "Organization",
+      "text": "NLU",
+      "relevance": 0.37042,
+      "count": 1,
+      "confidence": 0.289035
+    },
+    {
+      "type": "Location",
+      "text": "Washington, D.C.",
+      "relevance": 0.369386,
+      "count": 1,
+      "confidence": 0.394953
+    },
+    {
+      "type": "Person",
+      "text": "Train Watson",
+      "relevance": 0.365378,
+      "count": 1,
+      "confidence": 0.375503
+    },
+    {
+      "type": "Facility",
+      "text": "Watson Knowledge Studio",
+      "relevance": 0.362099,
+      "count": 1,
+      "confidence": 0.113793
+    },
+    {
+      "type": "Quantity",
+      "text": "USD 6.13 million",
+      "relevance": 0.34442,
+      "count": 1,
+      "confidence": 0.8
+    },
+    {
+      "type": "Quantity",
+      "text": "383%",
+      "relevance": 0.343049,
+      "count": 1,
+      "confidence": 0.8
+    },
+    {
+      "type": "Quantity",
+      "text": "50%",
+      "relevance": 0.342162,
+      "count": 1,
+      "confidence": 0.8
+    },
+    {
+      "type": "Quantity",
+      "text": "5%",
+      "relevance": 0.340169,
+      "count": 1,
+      "confidence": 0.8
+    },
+    {
+      "type": "Facility",
+      "text": "Mushi Lab",
+      "relevance": 0.285337,
+      "count": 1,
+      "confidence": 0.282443
+    },
+    {
+      "type": "Company",
+      "text": "Mushi Lab",
+      "relevance": 0.282927,
+      "count": 1,
+      "confidence": 0.240944
+    },
+    {
+      "type": "Quantity",
+      "text": "15%",
+      "relevance": 0.278902,
+      "count": 1,
+      "confidence": 0.8
+    },
+    {
+      "type": "Quantity",
+      "text": "USD 0.003",
+      "relevance": 0.193534,
+      "count": 1,
+      "confidence": 0.8
+    },
+    {
+      "type": "Quantity",
+      "text": "USD 800",
+      "relevance": 0.189162,
+      "count": 1,
+      "confidence": 0.8
+    },
+    {
+      "type": "Quantity",
+      "text": "USD 25",
+      "relevance": 0.187495,
+      "count": 1,
+      "confidence": 0.8
+    },
+    {
+      "type": "Location",
+      "text": "Frankfurt",
+      "relevance": 0.180708,
+      "count": 1,
+      "confidence": 0.964712
+    },
+    {
+      "type": "Facility",
+      "text": "Watson NLP Library",
+      "relevance": 0.174543,
+      "count": 1,
+      "confidence": 0.249944
+    },
+    {
+      "type": "Company",
+      "text": "Watson NLU",
+      "relevance": 0.173446,
+      "count": 1,
+      "confidence": 0.223816
+    },
+    {
+      "type": "Quantity",
+      "text": "35%",
+      "relevance": 0.168572,
+      "count": 1,
+      "confidence": 0.8
+    },
+    {
+      "type": "Company",
+      "text": "IBM Watson",
+      "relevance": 0.157796,
+      "count": 1,
+      "confidence": 0.510842
+    },
+    {
+      "type": "Location",
+      "text": "Dallas",
+      "relevance": 0.14428,
+      "count": 1,
+      "confidence": 0.999337
+    },
+    {
+      "type": "Location",
+      "text": "Sydney",
+      "relevance": 0.143842,
+      "count": 1,
+      "confidence": 0.980087
+    },
+    {
+      "type": "Person",
+      "text": "Watson NLU",
+      "relevance": 0.132402,
+      "count": 1,
+      "confidence": 0.398639
+    },
+    {
+      "type": "Company",
+      "text": "Independent Software Vendor",
+      "relevance": 0.125598,
+      "count": 1,
+      "confidence": 0.224445
+    },
+    {
+      "type": "Person",
+      "text": "Watson",
+      "relevance": 0.111518,
+      "count": 3,
+      "confidence": 0.997854
+    },
+    {
+      "type": "Company",
+      "text": "WKS",
+      "relevance": 0.110512,
+      "count": 1,
+      "confidence": 0.446867
+    },
+    {
+      "type": "Quantity",
+      "text": "USD 6.13 Million",
+      "relevance": 0.090252,
+      "count": 1,
+      "confidence": 0.8
+    },
+    {
+      "type": "Company",
+      "text": "Embed",
+      "relevance": 0.077973,
+      "count": 1,
+      "confidence": 0.581661
+    },
+    {
+      "type": "Company",
+      "text": "Watson Knowledge Studio",
+      "relevance": 0.074614,
+      "count": 1,
+      "confidence": 0.14258
+    },
+    {
+      "type": "Company",
+      "text": "Watson Discovery",
+      "relevance": 0.031184,
+      "count": 1,
+      "confidence": 0.074599
+    }
+  ],
+  "concepts": [
+    {
+      "text": "Metadata",
+      "relevance": 0.989007,
+      "dbpedia_resource": "http://dbpedia.org/resource/Metadata"
+    },
+    {
+      "text": "Natural language processing",
+      "relevance": 0.968047,
+      "dbpedia_resource": "http://dbpedia.org/resource/Natural_language_processing"
+    },
+    {
+      "text": "Natural language understanding",
+      "relevance": 0.946418,
+      "dbpedia_resource": "http://dbpedia.org/resource/Natural_language_understanding"
+    },
+    {
+      "text": "IBM",
+      "relevance": 0.943825,
+      "dbpedia_resource": "http://dbpedia.org/resource/IBM"
+    },
+    {
+      "text": "Law",
+      "relevance": 0.934451,
+      "dbpedia_resource": "http://dbpedia.org/resource/Law"
+    },
+    {
+      "text": "Natural language",
+      "relevance": 0.926625,
+      "dbpedia_resource": "http://dbpedia.org/resource/Natural_language"
+    },
+    {
+      "text": "Sentiment analysis",
+      "relevance": 0.887722,
+      "dbpedia_resource": "http://dbpedia.org/resource/Sentiment_analysis"
+    },
+    {
+      "text": "Language",
+      "relevance": 0.887233,
+      "dbpedia_resource": "http://dbpedia.org/resource/Language"
+    }
+  ],
+  "categories": [
+    {
+      "score": 0.859584,
+      "label": "/technology and computing/hardware/computer components/chips and processors"
+    },
+    {
+      "score": 0.837155,
+      "label": "/technology and computing/hardware/computer"
+    },
+    {
+      "score": 0.821078,
+      "label": "/technology and computing/operating systems"
+    }
+  ]
+}

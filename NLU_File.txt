@@ -1,0 +1,16 @@
+curl -X POST -u "apikey: {Api Key}" \
+--header "Content-Type: application/json" \
+--data '{
+  "url": "https://www.ibm.com/products/natural-language-understanding#:~:text=IBM%20Watson%C2%AE%20Natural%20Language,%2C%20emotion%2C%20relations%20and%20syntax.",
+  "features": {
+    "sentiment": {},
+    "categories": {},
+    "concepts": {},
+    "entities": {},
+    "keywords": {}
+  }
+}' \
+"{Api Url}/v1/analyze?version=2019-07-12"
+
+
+
